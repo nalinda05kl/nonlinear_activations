@@ -1,4 +1,4 @@
-### Analysis Code for the Stydy: Effects of Nonlinearity and Network Architecture on the Performance of Supervised Neural Networks. 
+### Analysis Code for the Study: Effects of Nonlinearity and Network Architecture on the Performance of Supervised Neural Networks. 
 Empirical study of the effects of nonlinearity in activation functions on the performance of deep learning models. We investigate the learning dynamics of hidden layers of shallow neural networks using entropy as a measurment of randomness in hidden layer outputs.
 
 ### This repository consists of following codes:
@@ -9,3 +9,5 @@ Empirical study of the effects of nonlinearity in activation functions on the pe
  ### Data used for the analysis:
  - **MNIST hand written digits**: http://yann.lecun.com/exdb/mnist/
  - **FOOD-11 data set**: https://www.kaggle.com/vermaavi/food11
+ 
+ **Any questions please contact**: Nalinda Kulathunga (Nalinda.Kulathunga@tsu.edu)
