@@ -7,6 +7,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
 
+# set the data_path according to your data directory path
 data_path = "./Data"
 batch_size = 64
 alphas = 5
@@ -174,6 +175,7 @@ for i in range(0,alphas):
         # training
         for batch_idx, (data, target) in enumerate(trainloader):
             batch_idx, data, target = batch_idx.to(device), data.to(device), target.to(device)
+            # turn off the if condition to run on all data (all batches) : 45K images
             if(batch_idx > 50):
                 break
             batch_X, batch_y = data, target
@@ -203,6 +205,7 @@ for i in range(0,alphas):
         with torch.no_grad():   
             for te_batch_idx, (te_data, te_target) in enumerate(testloader):
                 te_batch_idx, te_data, te_target = te_batch_idx.to(device), te_data.to(device), te_target.to(device)
+                # turn off the if condition to run on all data (all batches): 15K test images
                 if te_batch_idx > 20:
                     break
                 te_batch_X, te_batch_y = te_data, te_target
