@@ -26,6 +26,9 @@ Empirical study of the effects of nonlinearity in activation functions on the pe
  - **MNIST fashion data set**: https://www.kaggle.com/zalando-research/fashionmnist
  
  ### Network architecture shapes used in the analysis:
+ <img src="Images/NNNFig11.png" width="800" height="300" >
+ 
+ ### Sample Result: Entropy vs Linearity in the network
  
  ![](Images/Fig_en_vs_alpha.png)
   
