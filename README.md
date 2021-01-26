@@ -19,5 +19,5 @@ Empirical study of the effects of nonlinearity in activation functions on the pe
  - **DOG breeds data set**: 
  - **cifar10 data set**:
  - **MNIST fashion data set**:
- 
+  
  **Any questions please contact**: Nalinda Kulathunga (Nalinda.Kulathunga@tsu.edu)
