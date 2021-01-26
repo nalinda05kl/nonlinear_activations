@@ -28,7 +28,7 @@ Empirical study of the effects of nonlinearity in activation functions on the pe
  ### Network architecture shapes used in the analysis:
  <img src="Images/NNNFig11.png" width="900" height="400">
  
- ### Sample Result: Entropy vs Linearity in the network
+ ### Sample Result: Entropy vs Linearity in the network (preliminary)
  
  ![](Images/Fig_en_vs_alpha.png)
   
