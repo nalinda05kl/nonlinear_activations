@@ -21,8 +21,8 @@ Empirical study of the effects of nonlinearity in activation functions on the pe
  ### Data used for the analysis:
  - **MNIST hand written digits**: http://yann.lecun.com/exdb/mnist/
  - **FOOD-11 data set**: https://www.kaggle.com/vermaavi/food11
- - **DOG breeds data set**: 
- - **cifar10 data set**:
- - **MNIST fashion data set**:
+ - **DOG breeds data set**: contact cor. author
+ - **cifar10 data set**: https://www.cs.toronto.edu/~kriz/cifar.html
+ - **MNIST fashion data set**: https://www.kaggle.com/zalando-research/fashionmnist
   
  **Any questions, please contact**: Nalinda Kulathunga (Nalinda.Kulathunga@tsu.edu)
