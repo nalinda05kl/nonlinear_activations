@@ -25,6 +25,9 @@ Empirical study of the effects of nonlinearity in activation functions on the pe
  - **cifar10 data set**: https://www.cs.toronto.edu/~kriz/cifar.html
  - **MNIST fashion data set**: https://www.kaggle.com/zalando-research/fashionmnist
  
+ ### GPU
+ - **NVIDIA DGX-2:** NVIDIA Tesla V100 (512 GB/node)
+ 
  ### Network architecture shapes used in the analysis:
  <img src="Images/NNNFig11.png" width="900" height="400">
  
