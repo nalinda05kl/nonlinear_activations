@@ -27,6 +27,6 @@ Empirical study of the effects of nonlinearity in activation functions on the pe
  
  ### Network architecture shapes used in the analysis:
  
- ![](Images/NNNFig1.png)
+ ![](Images/Fig_en_vs_alpha.png)
   
  **Any questions, please contact**: Nalinda Kulathunga (Nalinda.Kulathunga@tsu.edu)
