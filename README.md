@@ -11,7 +11,9 @@ Empirical study of the effects of nonlinearity in activation functions on the pe
    - Classification (w/o TL): MNIST-fashion and MNIST-digits
    - Classification (w TL): FOOD-11, Dog Breeds, cifar10
      - TL pre-trained models: VGG16, VGG19, Xception, InceptionV3, ResNet50
- - **Folder: Entropy**: Entropy calculation for each layer and its variations under different nonlinearities and model architectures
+ - **Folder: Entropy**: Entropy calculation for each layer and its variations under different nonlinearities and model architectures. Following studies were performed;
+   - Entropy profile of hidden layers as a function of nonlinearity in the network
+   - Entropy profile of hidden layres as a function of model architecture
  
  ### Data used for the analysis:
  - **MNIST hand written digits**: http://yann.lecun.com/exdb/mnist/
