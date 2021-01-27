@@ -9,7 +9,7 @@ Empirical study of the effects of nonlinearity in activation functions on the pe
    - Accuracy vs number of parameters for fixed architecture shape
    - Accuracy vs linearity of the network as a function of number of paramters
    - Accuracy vs linearity of the network as a function of network architecture shape
- - **Folder: performance_vs_data_domain**: Loss calculated based on different data domains and with/without transfer learning.
+ - **Folder: performance_vs_data_domain**: Loss calculated based on different data domains and with/without transfer learning (TL).
    - Regression: Simulated data with 8, 16, 24 features
    - Classification (w/o TL): MNIST-fashion and MNIST-digits
    - Classification (w TL): FOOD-11, Dog Breeds, cifar10
