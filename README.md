@@ -34,6 +34,6 @@ Empirical study of the effects of nonlinearity in activation functions on the pe
  ### Sample Result: Entropy vs Linearity in the network (preliminary)
  - Entropy profile for the 5 layer neural network during the training process as a function of linearity factor (&alpha;). Linearity factor in L-ReLU was changed    from &alpha; = 0.0 to &alpha; = 0.4. Hidden layers 1-5 of the neural network consist of nodel combinations; 256, 128, 128, 128 and 32, respectively. These models were trained using 60,000 MNIST-digits images with 33% validation split.
  
- <img src="Images/Fig_en_vs_alpha.png" width="1400" height="400">
+ <img src="Images/Fig_en_vs_alpha.png" width="1400" height="300">
   
  **Any questions, please contact**: Nalinda Kulathunga (Nalinda.Kulathunga@tsu.edu)
