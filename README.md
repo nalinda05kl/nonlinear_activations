@@ -33,11 +33,16 @@ Empirical study of the effects of nonlinearity in activation functions on the pe
  - **NVIDIA DGX-2:** NVIDIA Tesla V100 (512 GB/node)
  
  ### Network architecture shapes used in the analysis:
- <img src="Images/NNNFig11.png" width="900" height="400">
+ <img src="Images/NNNFig11.png" width="700" height="285">
  
- ### Sample Result: Entropy vs Linearity in the network (preliminary)
+ ### Sample Result: Entropy vs linearity (&alpha;) in the network (preliminary)
  - Entropy profile for the 5 layer neural network during the training process as a function of linearity factor (&alpha;). Linearity factor in L-ReLU was changed    from &alpha; = 0.0 to &alpha; = 0.4. Hidden layers 1-5 of the neural network consist of nodel combinations; 256, 128, 128, 128 and 32, respectively. These models were trained using 60,000 MNIST-digits images with 33% validation split.
  
  <img src="Images/Fig_en_vs_alpha.png" width="1400" height="300">
+ 
+ ### Sample Result: Performance of transfer learnig (TL) vs linearity (&alpha;) in classification layers (preliminary)
+ - (left panel)} Validation loss with respect to the validation loss at &alpha; = 0 as a function of linearity factor (&alpha;) for Dog Breeds, FOOD-11 and cifar10 data sets modeled using VGG16 pre-trained model, (right panel) validation loss with respect to the validation loss at &alpha; = 0 as a function of linearity factor (&alpha;) for Dog Breeds data using VGG16, VGG19, InceptionV3, ResNet50 and Xception pre-trained models. For each curve, width of the band shows the uncertainty due to different weight initialization in classification layers.
+ 
+ <img src="Images/TL_vs_alpha.png" width="600" height="400">
   
  **Any questions, please contact**: Nalinda Kulathunga (Nalinda.Kulathunga@tsu.edu)
