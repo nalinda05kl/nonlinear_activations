@@ -30,6 +30,7 @@ Empirical study of the effects of nonlinearity in activation functions on the pe
  - **EMNIST letters data set**: https://www.nist.gov/itl/products-and-services/emnist-dataset
  
  ### Network architecture shapes used in the analysis:
+ 
  <p align="center">
   <img src="Images/NNNFig11.png" width="700" height="285" />
  </p>
