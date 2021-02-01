@@ -27,6 +27,7 @@ Empirical study of the effects of nonlinearity in activation functions on the pe
  - **DOG breeds data set**: contact cor. author
  - **cifar10 data set**: https://www.cs.toronto.edu/~kriz/cifar.html
  - **MNIST fashion data set**: https://www.kaggle.com/zalando-research/fashionmnist
+ - **EMNIST letters data set**: https://www.nist.gov/itl/products-and-services/emnist-dataset
  
  ### GPU
  - **NVIDIA DGX-2:** NVIDIA Tesla V100 (512 GB/node)
