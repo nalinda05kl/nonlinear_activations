@@ -14,7 +14,7 @@ Empirical study of the effects of nonlinearity in activation functions on the pe
    - Accuracy vs linearity of the network as a function of network architecture shape
  - **Folder: performance_vs_data_domain**: Loss calculated based on different data domains and with/without transfer learning (TL).
    - Regression: Simulated data with 8, 16, 24 features
-   - Classification (w/o TL): MNIST-fashion and MNIST-digits
+   - Classification (w/o TL): MNIST-fashion, MNIST-digits. EMNIST-letters
    - Classification (w TL): FOOD-11, Dog Breeds, cifar10
      - TL pre-trained models: VGG16, VGG19, Xception, InceptionV3, ResNet50
  - **Folder: Entropy**: Entropy calculation for each layer and its variations under different nonlinearities and model architectures. Following studies were performed and two data sets (MNIST-digits, MNIST-fashion) were tested.
