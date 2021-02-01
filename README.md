@@ -29,13 +29,13 @@ Empirical study of the effects of nonlinearity in activation functions on the pe
  - **MNIST fashion data set**: https://www.kaggle.com/zalando-research/fashionmnist
  - **EMNIST letters data set**: https://www.nist.gov/itl/products-and-services/emnist-dataset
  
- ### GPU
- - **NVIDIA DGX-2:** NVIDIA Tesla V100 (512 GB/node)
-  
  ### Network architecture shapes used in the analysis:
  <p align="center">
   <img src="Images/NNNFig11.png" width="700" height="285" />
  </p>
+ 
+ ### GPU
+ - **NVIDIA DGX-2:** NVIDIA Tesla V100 (512 GB/node)
  
  ### Sample Result: Entropy vs linearity (&alpha;) in the network (preliminary)
  - Entropy profile for the 5 layer neural network during the training process as a function of linearity factor (&alpha;). Linearity factor in L-ReLU was changed    from &alpha; = 0.0 to &alpha; = 0.4. Hidden layers 1-5 of the neural network consist of nodel combinations; 256, 128, 128, 128 and 32, respectively. These models were trained using 60,000 MNIST-digits images with 33% validation split.
